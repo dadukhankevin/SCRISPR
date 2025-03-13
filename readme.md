@@ -1,8 +1,11 @@
 # SCRISPER V0
 
+
 SCRISPER (Software Creation via Random Improvement and Selection of Prompts for Evolution and Refinement) is a system designed to evolve software solutions by combining genetic algorithms with large language models (LLMs). It iteratively refines textual prompts to generate increasingly effective software implementations.
 
-Note: super early stage, not at all fully tested or proven!
+Note: the "e" in SCRISPER is intentional, it stands for "evolution".
+
+Note2: super early stage, not at all fully tested or proven!
 
 ## Overview
 
