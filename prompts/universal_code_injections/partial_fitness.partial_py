@@ -1,0 +1,20 @@
+import json
+import time
+
+{generated_fitness_code}
+
+if __name__ == "__main__":
+    import genotype as program
+    start_time = time.time()    
+    score = fitness(program)
+    end_time = time.time()
+
+    with open("data.json", "r") as f:
+        data = json.load(f)
+
+    data["score"] = score
+    data["iteration"] += 1
+    data["runtimes"].append(end_time - start_time)
+    
+    with open("data.json", "w") as f:
+        json.dump(data, f)
