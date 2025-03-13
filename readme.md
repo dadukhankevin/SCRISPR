@@ -18,6 +18,8 @@ The SCRISPER workflow consists of the following steps:
 4. **Evolutionary Process**: Through iterative cycles of mutation, crossover, and selection, SCRISPER refines the prompts, progressively improving the generated software solutions.
 5. **Final Output**: After multiple generations, SCRISPER outputs optimized, tested, and functional software solutions addressing the original problem.
 
+You can view the evolution process in the generated individuals folder environment/individuals! Each individual has a genotype.py and phenotype.py file, the genotype.py file contains the prompt and the phenotype.py file contains the code. Each has it's own python virtual environment, so that each is vaguely sandboxed.
+
 ## Key Concepts
 
 ### Genotype and Phenotype
@@ -77,8 +79,7 @@ To set up and run SCRISPER:
 1. Clone the repository.
 2. Install dependencies listed in requirements.txt.
 3. Define your problem prompt clearly.
-4. Run the evolutionary algorithm (algorithm.py) to initiate the process.
-
+4. Run one of the examples.
 ## Contributing
 
 Contributions are welcome. Please open an issue or submit a pull request with your proposed changes or improvements.
